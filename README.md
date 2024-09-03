@@ -1,1 +1,1 @@
-# PSICOLOGIA---Algoritmos
+# KINK DO PROJETO
