@@ -1,0 +1,106 @@
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <title>Psicologia</title>
+</head>
+
+
+<body>
+
+    <header>PSICOLOGIA</header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>O QUE É A PSICOLOGIA?</h1>
+            <p>Aprenda o que é a psicologia, como ela surgiu e categorias da psicologia!</p>
+            
+            <!-- Adicionando a imagem do cérebro abaixo do texto -->
+            <img src="cérebro.png" alt="Cérebro Minimalista" class="cerebro-imagem">
+        </div>
+    
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cfu-Q-8A9zo?si=zMTQRSxdGcqEz53i"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+
+    <section class="categoria">
+
+        <h2>Tipos de psicologia</h2>
+
+        <div class="categoria-videos">
+
+            <a href="https://youtu.be/ShYasDo_BRY?si=m1vwgQsqC-PdC7ib">
+                <img src="https://img.youtube.com/vi/ShYasDo_BRY/maxresdefault.jpg" />
+            </a>
+            <a href="https://youtu.be/ZzuiD-KMUMg?si=M8Jx9z36zpz0Eqb5">
+                <img src="https://img.youtube.com/vi/ZzuiD-KMUMg/maxresdefault.jpg" />
+            </a>
+            <a href="https://youtu.be/5run8nqmZUI?si=SeSNpp41LlOR-vlF">
+                <img src="https://img.youtube.com/vi/5run8nqmZUI/maxresdefault.jpg" />
+            </a>
+            <a href="https://youtu.be/nS1vDiPCFhI?si=Xjk-TGLKQYk6spO9">
+                <img src="https://img.youtube.com/vi/nS1vDiPCFhI/maxresdefault.jpg" />
+            </a>
+            <a href="https://youtu.be/ftTNcDJfrGQ?si=mmfVnq3UqdKYh2uB">
+                <img src="https://img.youtube.com/vi/ftTNcDJfrGQ/maxresdefault.jpg" />
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="faq-section">
+        <h2>Perguntas Frequentes sobre Psicologia</h2>
+        <button class="faq-button" onclick="toggleFaq()">Ver FAQs</button>
+    
+        <div id="faq-list" class="faq-list" style="display: none;">
+            <div class="faq-item">
+                <h3>O que é psicologia?</h3>
+                <p>A psicologia é o estudo científico do comportamento e dos processos mentais, abrangendo aspectos emocionais, cognitivos e sociais.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Qual é a importância da psicologia clínica?</h3>
+                <p>A psicologia clínica ajuda as pessoas a entender e tratar problemas emocionais e comportamentais, promovendo saúde mental e bem-estar.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Quais são os principais tipos de psicologia?</h3>
+                <p>Os principais tipos de psicologia incluem psicologia cognitiva, clínica, educacional, organizacional e forense, entre outros.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Como a psicologia pode ajudar no ambiente de trabalho?</h3>
+                <p>A psicologia organizacional é aplicada no ambiente de trabalho para melhorar a produtividade, a motivação e o bem-estar dos funcionários.</p>
+            </div>
+            <div class="faq-item">
+                <h3>O que faz um psicólogo?</h3>
+                <p>Um psicólogo é um profissional capacitado para avaliar, diagnosticar e tratar questões emocionais e comportamentais, além de oferecer orientação e suporte.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleFaq() {
+            var faqList = document.getElementById("faq-list");
+            if (faqList.style.display === "none") {
+                faqList.style.display = "block";
+            } else {
+                faqList.style.display = "none";
+            }
+        }
+        </script>
+        
+    
+</body>
+
+</html>

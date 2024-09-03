@@ -1,0 +1,136 @@
+body {
+    color: white;
+    background: rgb(28, 28, 28);
+    margin: 0px;
+    font-family: "lora", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: white;
+}
+
+.chamada {
+    background: rgb(54, 54, 54);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: rgb(220, 220, 220);
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(28, 28, 28);
+    border-top: solid 2px rgb(0, 0, 0);
+}
+
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(28, 28, 28);
+
+}
+
+.faq-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.faq-section h2 {
+    color: rgb(220, 220, 220);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.faq-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.faq-button:hover {
+    background-color: #45a049;
+}
+
+.faq-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.faq-item {
+    background: rgb(44, 44, 44);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-item h3 {
+    color: rgb(220, 220, 220);
+    font-size: 22px;
+}
+
+.faq-item p {
+    color: rgb(180, 180, 180);
+    font-size: 16px;
+}
+
+.cerebro-imagem {
+    display: block;
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    opacity: 0.8; /* Suavizar um pouco a imagem */
+    transition: opacity 0.3s ease;
+}
+
+.cerebro-imagem:hover {
+    opacity: 1.0; /* Tornar a imagem completamente visível ao passar o mouse */
+}
